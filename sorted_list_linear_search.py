@@ -17,6 +17,6 @@ def linear_search(list_of_element, search_number):
             break
     print ("out of for loop")
 
-linear_search([3,17,75,80,202], 22)
+linear_search([3,17,75,80,202], 3)
 
 
