@@ -12,7 +12,7 @@ def bubble_sort(list_b:list) -> list:
                 list_b[i] = temp
     return list_b
 
-print(bubble_sort([5,5,9,1,8,2]))
+print(bubble_sort([9,1,5,8,7,2,1,5,5,6,8,15,3,9,19,18,88,10,1,100,4,8]))
 
 
 
