@@ -4,7 +4,6 @@ y = 0
 while n > 1:
     y = y + 1
     #print(y)
-    u = n / 2
-    n = u
+    n = n / 2
 
 print(y)
