@@ -3,6 +3,7 @@
 list_a = [2,5,6,9,10,15,16,18,20,21,22,30]
 
 
+
 def binary_search(ordered_list, search_value):
     lower_bound = 0
     upperbound = len(ordered_list) - 1
