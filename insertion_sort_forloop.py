@@ -11,7 +11,9 @@ def insertion_sort(list_a):
             print (f"Index {j} and value {list_a[j]}")
             if list_a[j] > temp_value:
                 list_a[j + 1] = list_a[j]
-                list_a[j] = temp_value 
+                list_a[j] = temp_value
+            else:
+                break 
     return list_a
 
 
