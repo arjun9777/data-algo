@@ -2,7 +2,7 @@
 
 
 def selection_sort_cmplx(list_a):
-    for i in range(len(list_a)):
+    for i in range(len(list_a) - 1):
         print(f"Iterating for {i} and value {list_a[i]}")
         lowestNumberIndex = i
         for j in range(i+1, len(list_a)):
@@ -17,5 +17,5 @@ def selection_sort_cmplx(list_a):
     
     return list_a
 
-x = selection_sort_cmplx([5,4,6,9,2,3])
+x = selection_sort_cmplx([4,2,7,1,3])
 print(x)
