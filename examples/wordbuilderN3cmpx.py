@@ -7,7 +7,7 @@ def buildwords(listA: list) -> list:
         for key2, value2 in enumerate(listA):
             print(f"************* Inner for loop key : {key2} and value : {value2}")
             for key3, value3 in enumerate(listA):
-                print(f"---------------------------- Thirs for loop key : {key3} and value : {value3}")
+                print(f"---------------------------- Third for loop key : {key3} and value : {value3}")
                 if (key != key2 & key2 !=key3 & key != key3):
                     collect.append(value+value2+value3)
     return collect
