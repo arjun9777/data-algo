@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-def average_even_numbers(listA : list):
+def average_even_numbers(listA : list)->float:
     sum = 0
     count_of_event_number = 0
     for key, value in enumerate(listA):
