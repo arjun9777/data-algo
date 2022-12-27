@@ -13,4 +13,4 @@ def buildwords(listA: list) -> list:
 
 a = ["a", "b", "c", "d"]
 x = buildwords(a)
-print(f"combination of two characters strings {x}")
+print(f"Combination of two characters strings {x}")
