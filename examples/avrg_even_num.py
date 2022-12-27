@@ -13,4 +13,4 @@ def average_even_numbers(listA : list):
 
 a = [1,2,3,-4,5,-6,7,-8,9,10]
 x = average_even_numbers(a)
-print(f"Average mean of event numbers : {x}")
+print(f"Average mean of even numbers : {x}")
