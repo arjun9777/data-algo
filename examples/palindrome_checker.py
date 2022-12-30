@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-def ispalindrome(listA: list) -> bool:
+def ispalindrome(listA: list or str) -> bool:
     leftIndex = 0
     rightIndex = len(listA) - 1
 
@@ -14,7 +14,9 @@ def ispalindrome(listA: list) -> bool:
 
 a = ['r','a','c','e','c','a','r']
 b = ['a', 'p', 'p','l','e']
-x = ispalindrome(b)
+c = "racecar"
+d = "apple"
+x = ispalindrome(d)
 
 print(f"Is it palindrome : {x}")
 
