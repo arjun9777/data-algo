@@ -1,5 +1,6 @@
 #! /usr/bin/env python3
-def issubset(array1:list, array2:list):
+
+def issubset(array1:list, array2:list) -> bool:
     if len(array1) > len(array2):
         largerarray = array1
         smallerarray = array2
@@ -19,9 +20,9 @@ def issubset(array1:list, array2:list):
         return False
     return True
 
-a = ['a', 'b', 'c', 'd', 'e', 'f']
-b = ['b','d','f']
+a = ['a', 'b', 'c', 'd', 'e', 'f', 'h']
+b = ['b','d','f','h']
 
 x = issubset(a, b)
-print(x)
+print(f"Is it subset? : {x}")
 
