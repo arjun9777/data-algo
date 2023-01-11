@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 from collections import deque
-   
+
 def lint(text: str):
     mystack = deque()
     for key, value in enumerate(text):
