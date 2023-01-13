@@ -2,7 +2,7 @@
 from collections import deque
 
 
-def printerqueue(filearray: list):
+def printerqueue(filearray: list) -> str:
     myqueue = deque()
 
     for i in filearray:
