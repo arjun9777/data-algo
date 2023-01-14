@@ -1,14 +1,13 @@
 #! /usr/bin/env python3
 from collections import deque
 
-
 def printerqueue(filearray: list) -> str:
     myqueue = deque()
 
     for i in filearray:
         myqueue.append(i)
-    print(f"Queue values : {myqueue}") 
-    
+    print(f"Queue values : {myqueue}")
+
     try:
         while (x:=myqueue.popleft()):
             print(x)

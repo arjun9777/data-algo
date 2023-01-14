@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 from collections import deque
 
-def lint(text: str):
+def lint(text: str) -> str:
     mystack = deque()
     for key, value in enumerate(text):
         if (timo := openingbrace(value)):
