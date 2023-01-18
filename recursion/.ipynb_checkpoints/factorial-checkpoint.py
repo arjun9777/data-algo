@@ -9,7 +9,3 @@ def factorial(number : int) -> int:
 a = 5
 x = factorial(a)
 print(f"Factorial of number {a} is : {x}")
-
-
-
-
