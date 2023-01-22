@@ -5,6 +5,7 @@ def arraysum(listA: list, index=0)-> int:
         return listA[0]
     
     print(f"Calling for {index + 1}")
+    print(f"----------------------------Here is how array changes on each recursive call : {listA}")
     return listA[0] + arraysum(listA[1:len(listA)], index + 1)
 
 a = [56,89,48,2,59,78,45,38]
