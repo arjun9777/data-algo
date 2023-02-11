@@ -11,7 +11,7 @@ def unique_paths(rows, columns):
 
 
 a = 3
-b = 7
+b = 3
 
 x = unique_paths(a,b)
 print(x)
