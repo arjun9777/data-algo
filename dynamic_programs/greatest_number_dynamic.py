@@ -3,6 +3,7 @@ from termcolor import colored
  
 y = 1
 def max(listA):
+    print(f"max function call {listA}")
     if len(listA) == 1:
         return listA[0]
     
