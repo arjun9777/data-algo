@@ -5,26 +5,26 @@ from termcolor import colored
 
 class Stack:
     def __init__(self):
-        self.items = deque()
+        self.data = deque()
     
     def empty(self) -> int:
-        return len(self.items) == 0 
+        return len(self.data) == 0 
     
     def push(self, x):
-        self.items.append(x)
+        self.data.append(x)
 
     def pop(self):
         if self.empty():
             return None
-        return self.items.pop()
+        return self.data.pop()
     
     def size(self):
-        return len(self.items)
+        return len(self.data)
 
     def peek(self):
         if self.empty():
             return None
-        return self.items[-1]
+        return self.data[-1]
     
 
 stack = Stack()
