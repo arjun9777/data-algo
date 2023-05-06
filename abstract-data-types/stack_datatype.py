@@ -21,7 +21,7 @@ class Stack:
     def size(self):
         return len(self.data)
 
-    def peek(self):
+    def read(self):
         if self.empty():
             return None
         return self.data[-1]
@@ -33,9 +33,9 @@ stack.push(1)
 stack.push(2)
 stack.push(3)
 
-print(colored(f"{stack.peek()}", "green"))
+print(colored(f"{stack.read()}", "green"))
 
 stack.pop()
 
-print(colored(f"{stack.peek()}", "green"))
+print(colored(f"{stack.read()}", "green"))
 print(colored(f"Total size of stack : {stack.size()}", "yellow"))
