@@ -44,7 +44,7 @@ def closingbrace(c: str):
 
 
 
-#a = "( var x = { y: [1, 2, 3] } )"
+#b = "( var x = { y: [1, 2, 3] } )"
 
 b = "var x = { y: [1, 2, 3] })"
 x = lint(b)
