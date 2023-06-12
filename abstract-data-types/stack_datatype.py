@@ -2,7 +2,6 @@
 from collections import deque
 from termcolor import colored
 
-
 class Stack:
     def __init__(self):
         self.data = deque()
@@ -26,7 +25,6 @@ class Stack:
             return None
         return self.data[-1]
     
-
 stack = Stack()
 
 stack.push(1)
