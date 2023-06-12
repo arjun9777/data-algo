@@ -11,7 +11,7 @@ def lint(text: str) -> str:
             #print(f"---------------------------It is closing brace : {jimo}")
             if mystack:
                 popped_opening_brace =  mystack.pop()
-                if ( y:= is_match_brace(jimo) == popped_opening_brace): #check condition and assing values to y for testing
+                if ( y:= is_match_brace(jimo) == popped_opening_brace): #check condition and assign values to y for testing
                     pass
                 else:
                     return f"there is a syntax error"
