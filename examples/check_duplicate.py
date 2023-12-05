@@ -1,7 +1,4 @@
 #! /usr/bin/evn python3
-#Need to think again
-
-
 def find_duplicate_old(list_z):
     list_appear = []
     for i in range(len(list_z)):
